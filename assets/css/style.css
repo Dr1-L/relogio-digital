@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+/* reseta as definições do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, #827397 20%, #4D4C7D, #363062);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 32vh;
+    width: 40vw;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    height: 24vh;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 14px;
+}
+
+#data-extenso {
+    width: 40vw;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+
