@@ -35,7 +35,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: rgba(0, 0, 0, .6);
+    background: #000;
+    opacity: 0.6;
     border-radius: 7px;
     letter-spacing: 3px;
 }
